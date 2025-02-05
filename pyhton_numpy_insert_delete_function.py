@@ -1,0 +1,11 @@
+import numpy as np
+var=np.array([1,4,3,4,5,6,7])
+var1=np.insert(var,3,9)
+var2=np.delete(var,2)
+print(var1)
+print(var2)
+var3=np.array([[1,4,3,4],[6,7,8,9]])
+var4=np.insert(var3,2,9,axis=0)
+var5=np.delete(var3,2)
+print(var4)
+print(var5)
